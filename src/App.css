@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -7,32 +10,69 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: rgb(14, 13, 12);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gifs {
+  margin: 0, auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  padding: 0.3rem;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(179, 218, 218);
+  color: antiquewhite;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.search {
+  display: flex;
+  margin-left: 50%;
+  margin-top: 5%;
+}
+
+ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  color: rgb(250, 243, 243);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper {
+  background-color: rgb(160, 170, 170);
+  padding: 20px;
+  margin: 25%;
+  border: 1px solid #bdd682;
+  border-radius: 10px;
+}
+.wrapper .name {
+  display: flex;
+}
+
+.giphy {
+  font-size: 37px;
+  color: aliceblue;
+}
+
+.wrapper .img {
+  margin-top: 15px;
+}
+
+b {
+  text-transform: capitalize;
+  margin-left: 10px;
 }
